@@ -8,6 +8,13 @@ double input_a() {
     return a;
 }
 
+double input_b() {
+    cout << "Введите число B: ";
+    double b;
+    cin >> b;
+    return b;
+}
+
 int main() {
 
     int choice;
@@ -26,7 +33,7 @@ int main() {
             cout << input_a() << endl;
             break;
         case 2:
-             //cout << "Введите B: " << input_b() << endl;
+             cout << input_b() << endl;
             break;
         case 3:
              //cout << sum() << endl;
