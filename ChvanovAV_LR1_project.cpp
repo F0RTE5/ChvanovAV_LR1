@@ -15,6 +15,11 @@ double input_b() {
     return b;
 }
 
+double sum(){
+    return input_a() + input_b();
+}
+
+
 int main() {
 
     int choice;
@@ -36,7 +41,7 @@ int main() {
              cout << input_b() << endl;
             break;
         case 3:
-             //cout << sum() << endl;
+             cout << sum() << endl;
              break;
         case 4:
              //cout << diff() << endl;
