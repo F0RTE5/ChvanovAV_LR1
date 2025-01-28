@@ -19,6 +19,10 @@ double sum(){
     return input_a() + input_b();
 }
 
+double diff(){
+    return input_a() - input_b();
+}
+
 
 int main() {
 
@@ -44,7 +48,7 @@ int main() {
              cout << sum() << endl;
              break;
         case 4:
-             //cout << diff() << endl;
+             cout << diff() << endl;
              break;
         default:
             cout << "Некорректный ввод. Попробуйте ещё раз." << endl;
