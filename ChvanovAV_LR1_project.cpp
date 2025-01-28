@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+double input_a() {
+    cout << "Введите число A: ";
+    double a;
+    cin >> a;
+    return a;
+}
+
 int main() {
 
     int choice;
@@ -16,7 +23,7 @@ int main() {
 
     switch (choice) {
         case 1:
-            //cout << "Введите A: " << input_a() << endl;
+            cout << input_a() << endl;
             break;
         case 2:
              //cout << "Введите B: " << input_b() << endl;
